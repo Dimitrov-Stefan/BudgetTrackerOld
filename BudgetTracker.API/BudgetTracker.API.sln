@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetTracker.API", "BudgetTracker.API\BudgetTracker.API.csproj", "{8BFA21A4-7355-4EBD-85E7-B2B2A9578300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetTracker.BL", "BudgetTracker.BL\BudgetTracker.BL.csproj", "{6F1236BD-3F1A-4DAE-9B1D-BB0B13D29C51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetTracker.DAL", "BudgetTracker.DAL\BudgetTracker.DAL.csproj", "{074371BF-4059-41ED-9EAB-DA5AEF9F7437}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetTracker.Common", "BudgetTracker.Common\BudgetTracker.Common.csproj", "{75C12CFE-1E37-4C11-A96C-137FC3AE7846}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BudgetTracker.SPA", "BudgetTracker.SPA\", "{91A3AE6A-FA09-49D4-B0A2-426C978BBC4A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62196"
+		Debug.AspNetCompiler.PhysicalPath = "BudgetTracker.SPA\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62196\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62196"
+		Release.AspNetCompiler.PhysicalPath = "BudgetTracker.SPA\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62196\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62196"
+		SlnRelativePath = "BudgetTracker.SPA\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BFA21A4-7355-4EBD-85E7-B2B2A9578300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFA21A4-7355-4EBD-85E7-B2B2A9578300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFA21A4-7355-4EBD-85E7-B2B2A9578300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFA21A4-7355-4EBD-85E7-B2B2A9578300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1236BD-3F1A-4DAE-9B1D-BB0B13D29C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1236BD-3F1A-4DAE-9B1D-BB0B13D29C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1236BD-3F1A-4DAE-9B1D-BB0B13D29C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1236BD-3F1A-4DAE-9B1D-BB0B13D29C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074371BF-4059-41ED-9EAB-DA5AEF9F7437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074371BF-4059-41ED-9EAB-DA5AEF9F7437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074371BF-4059-41ED-9EAB-DA5AEF9F7437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074371BF-4059-41ED-9EAB-DA5AEF9F7437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C12CFE-1E37-4C11-A96C-137FC3AE7846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C12CFE-1E37-4C11-A96C-137FC3AE7846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C12CFE-1E37-4C11-A96C-137FC3AE7846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C12CFE-1E37-4C11-A96C-137FC3AE7846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A3AE6A-FA09-49D4-B0A2-426C978BBC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A3AE6A-FA09-49D4-B0A2-426C978BBC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A3AE6A-FA09-49D4-B0A2-426C978BBC4A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A3AE6A-FA09-49D4-B0A2-426C978BBC4A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCC7FB3C-29F0-496B-AF9D-260FA9F304CE}
+	EndGlobalSection
+EndGlobal

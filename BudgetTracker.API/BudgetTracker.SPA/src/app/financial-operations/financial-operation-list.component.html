@@ -1,0 +1,50 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    {{pageTitle}}
+  </div>
+
+  <div class="panel-body">
+
+    <div class="row">
+      <button class="btn btn-primary" [routerLink]="['/financialOperations/financialOperation/Add']">
+        <i class="glyphicon glyphicon-plus"></i> Add
+      </button>
+    </div>
+
+    <div class='table-responsive'>
+      <table class='table'
+             *ngIf='financialOperations && financialOperations.length'>
+        <thead>
+          <tr>
+            <!--<th>
+              <button class='btn btn-primary'
+                      (click)='toggleImage()'>
+                {{showImage ? 'Hide' : 'Show'}} Image
+              </button>
+            </th>-->
+            <th>Date</th>
+            <th>Sum</th>
+            <th>Item</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let financialOperation of financialOperations'>
+            <td>
+              {{financialOperation.timestamp}}
+            </td>
+            <td>
+              {{financialOperation.amount}}
+            </td>
+
+            <td>
+              {{financialOperation.description}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+  </div>
+</div>

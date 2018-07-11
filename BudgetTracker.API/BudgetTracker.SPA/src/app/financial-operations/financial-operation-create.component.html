@@ -1,0 +1,46 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Add a new item</h2>
+  </div>
+
+  <form [formGroup]="registerForm">
+    <div class="form-group row">
+      <label for="dateInput" class="col-sm-2 col-form-label">Date</label>
+      <div class="col-sm-5">
+        <input type="date" id="dateInput" placeholder="Date" class="form-control" formControlName="date" />
+      </div>
+    </div>
+
+
+    <div class="form-group row">
+      <label for="financialItemInput" class="col-sm-2 col-form-label">Financial item</label>
+      <div class="col-sm-2">
+        <select id="financialItemInput" class="form-control" formControlName="financialItem">
+          <option selected>Item 1</option>
+          <option>Item 2</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="amountInput" class="col-sm-2 col-form-label">Amount</label>
+      <div class="col-sm-5">
+        <input type="text" id="amountInput" placeholder="Amount" class="form-control" formControlName="amount" />
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-sm-2 col-sm-offset-5">
+        <a class="btn btn-primary" (click)="onSave()" style="width: 80px">
+          <i class="glyphicon glyphicon-floppy-disk"></i> Save
+        </a>
+      </div>
+    </div>
+  </form>
+
+  <div class="panel-footer">
+    <a class="btn btn-default" (click)="onBack()" style="width: 80px">
+      <i class="glyphicon glyphicon-chevron-left"></i> Back
+    </a>
+  </div>
+</div>
